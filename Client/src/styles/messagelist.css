@@ -1,0 +1,17 @@
+textarea{
+    resize: none;
+    padding: 0.5rem;
+}
+textarea:focus{
+    outline: none;
+}
+.user_link{
+    border:1px solid red;
+    min-width: 100svw;
+    max-width: 50rem;
+    height: 5rem;
+    padding: 0.5rem;
+    /* margin: 0.5rem;
+     */
+     font-size: 2rem;
+}
