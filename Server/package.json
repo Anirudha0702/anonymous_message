@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "start:dev": "nodemon index.js",
-    "build": "webpack",
+    "build": "webpack --config ./webpack.config.js",
     "prod": "node dist/api.bundle.js"
   },
   "author": "Anirudha Pradhan",
@@ -16,6 +16,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^7.5.2",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "webpack": "^5.88.2"
   }
 }

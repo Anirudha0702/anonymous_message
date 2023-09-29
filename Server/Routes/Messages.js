@@ -19,5 +19,15 @@ router.post("/post", async (req,res)=>{
     } catch (error) {
         console.log(error)
     } 
-});
+})
+router.get("/getMsgs", async (req,res)=>{
+    try {
+        const msgs=await Message.find({link_host_id:req.query.id});
+        console.log(msgs)
+        res.status(201).json(msgs);
+
+    } catch (error) {
+        console.log(error)
+    } 
+})
 module.exports=router; 
