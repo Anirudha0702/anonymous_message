@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "start:dev": "nodemon index.js",
-    "build": "npm run build",
+    "build": "npm i",
     "prod": "node dist/api.bundle.js"
   },
   "author": "Anirudha Pradhan",
