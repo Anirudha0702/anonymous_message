@@ -1,9 +1,16 @@
 import Typewriter from "typewriter-effect";
 import "../styles/home.css"
 import image_chat from '../assets/logo-notext.png'
-import { Link } from "react-router-dom";
+import { Link ,useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 const Home = () => {
-
+  const navigate=useNavigate();
+  useEffect(() => {
+    const wss_user_id=localStorage.getItem('wss_user_id');
+      if(wss_user_id!==null){
+        navigate('/'+wss_user_id);
+      }
+  }, [navigate]);
   return (
     <div className="home">
     <div className="logo-wrapper">

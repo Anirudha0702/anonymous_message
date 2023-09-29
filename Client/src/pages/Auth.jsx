@@ -51,8 +51,7 @@ const Auth = () => {
         }
         else{
             try {
-              const res=await axios.post("http://localhost:5000/api/auth/register",{name})
-              // const jsn=await res.json();
+              const res=await axios.post(`${import.meta.env.VITE_APP_API}/api/auth/register`,{name})
               console.log(res.data.slice(0,24))
               window.alert("Your Password  is "+res.data.slice(24,res.data.length));
               localStorage.setItem("wss_user_id",res.data.slice(0,24));
