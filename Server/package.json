@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "start:dev": "nodemon index.js",
-    "build": "webpack --config ./webpack.config.js",
+    "build": "npm run build",
     "prod": "node dist/api.bundle.js"
   },
   "author": "Anirudha Pradhan",
