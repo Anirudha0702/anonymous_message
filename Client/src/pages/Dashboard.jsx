@@ -3,7 +3,7 @@ import { useLocation} from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import WriteMessage from '../components/WriteMessage';
-import AnonyousMessages from '../components/anonyousMessages';
+import AnonyousMessages from '../components/AnonyousMessages';
 const Dashboard = () => {
 
     const locattion=useLocation();
