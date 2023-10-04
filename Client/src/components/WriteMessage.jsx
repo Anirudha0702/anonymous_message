@@ -1,7 +1,7 @@
 import{ useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import axios from 'axios';
-import "../styles/writemessage.css"
+import "../styles/writeMessage.css"
 import {AiOutlineLoading3Quarters} from "react-icons/ai"
 const WriteMessage = () => {
   const [message,setMessage]=useState("");
