@@ -1,0 +1,52 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .submitButton {
+    background-color: #ebca0f;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+.spinner{
+    background: transparent;
+    animation: rotate 2s linear infinite; /* Apply the 'rotate' animation infinitely */
+      
+}
+  @keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Start with 0 degrees rotation */
+  }
+  to {
+    transform: rotate(360deg); /* End with 360 degrees rotation (a full circle) */
+  }
+}

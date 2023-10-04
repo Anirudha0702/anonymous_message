@@ -33,16 +33,16 @@ position:absolute;
    font-size: clamp(1rem, 2vw, 1.5rem);
    display: flex;
 }
-.sub_title .typewriter{
+.sub_title>b span .typewriter{
     color:#ebca0f; 
 }
 button[type="submit"]{
     margin-top: 1rem;
-    width: 10rem;
+    width: 12rem;
     height: 2.3rem;
-    color:#000;
+    color:#ffffff;
     border-radius: 20px;
-    background-color: #ebca0f;
+    background-color:#007bff;
     border: none;
     font-size: calm(1rem, 2vw, 1.5rem);
     font-weight: bold;

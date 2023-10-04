@@ -21,13 +21,14 @@ const Home = () => {
       </div>
       <div className="sub_title">
       <b>Get Anonymous &nbsp;
-        <span className="typewriter"><Typewriter
+        <span >
+          <Typewriter
           options={{
             strings: [' Advices.', ' Compliements.', ' Confessions.', ' Secrets.'],
             autoStart: true,
             loop: true,
           }}
-        /></span>
+          className="typewriter"/></span>
        </b>
     </div>
     <Link to="/auth"><button type="submit">Create Your Link</button></Link>
