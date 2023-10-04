@@ -7,8 +7,8 @@ import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom"
-import MessageList from './pages/MessageList.jsx'
 import Auth from './pages/Auth.jsx'
+import Dashboard from './pages/Dashboard.jsx'
 
 
 const router= createBrowserRouter([
@@ -22,7 +22,7 @@ const router= createBrowserRouter([
    },
 {
   path:"/:id_pass",
-  element:<MessageList/>
+  element:<Dashboard/>
 }
 ]
 )

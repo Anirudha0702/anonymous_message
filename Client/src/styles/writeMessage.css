@@ -1,0 +1,22 @@
+ textarea{
+    resize: none;
+    padding: 0.5rem;
+}
+textarea:focus{
+    outline: none;
+}
+.page-wrapper{
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-wrapper >h3{
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: italic;
+    margin-block: 0.5rem;
+    padding: 1rem;
+} 
