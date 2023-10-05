@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="home">
     <div className="logo-wrapper">
-        <img src={image_chat} alt=""/>
+        <img src={image_chat} alt="chat image"/>
     </div>
     <div className="title">
       <i>Wanna Share Something??</i>
@@ -22,7 +22,7 @@ const Home = () => {
       <div className="sub_title">
       <b>Get Anonymous &nbsp;
         <span >
-          <Typewriter
+          <Typewriter title={"Typewriter"} data-testid="typewriter-element" 
           options={{
             strings: [' Advices.', ' Compliements.', ' Confessions.', ' Secrets.'],
             autoStart: true,
